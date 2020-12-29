@@ -18,6 +18,10 @@ function checkCookieForVerse () {
     }
 }
 
+function deleteCookie(){
+    document.cookie = "userVerse=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+}
+
 function getRandomVerse () {
     var index= Math.floor(Math.random() * (sentences.length));
     return sentences[index];
