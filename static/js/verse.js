@@ -33,6 +33,7 @@ var nydiv = document.getElementById("nydiv");
 nydiv.style.visibility='visible';
 
 document.getElementById("clickhere").style.visibility='visible';
+document.getElementById("del").style.visibility='visible';
 
 }
 
