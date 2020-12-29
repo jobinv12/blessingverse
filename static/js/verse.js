@@ -4,28 +4,6 @@
     max-1 (here max = sentence.length) and fits the zero-based numbering
     of the elements in the array
 */
-function checkCookieForVerse () {
-    //Check cookie is present
-    var userVerse=getCookie("userVerse");
-    if (userVerse != "") {
-      return userVerse;
-    } else {
-       userVerse = getRandomVerse();
-       if (userVerse != "" && userVerse != null) {
-         setCookie("userVerse", userVerse, 30);
-         return userVerse;
-       }
-    }
-}
-
-function deleteCookie(){
-    document.cookie = "userVerse=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-}
-
-function getRandomVerse () {
-    var index= Math.floor(Math.random() * (sentences.length));
-    return sentences[index];
-}
 function getVerse(){
   // get the canvas element you want to write to
   var canvas = document.getElementById("woodcut");
@@ -43,8 +21,26 @@ function getVerse(){
   context.textAlign = "center";
   // put a random line in the middle of the canvas
   // the +10 account for the fonttype's height
-  context.fillText(checkCookieForVerse
-(),canvas.width/2, canvas.height/2 + 10);
+  context.fillText(checkCookieForVerse(),canvas.width/2, canvas.height/2 + 10);
+}
+
+function checkCookieForVerse () {
+    //Check cookie is present
+    var userVerse=getCookie("userVerse");
+    if (userVerse != "") {
+      return userVerse;
+    } else {
+       userVerse = getRandomVerse();
+       if (userVerse != "" && userVerse != null) {
+         setCookie("userVerse", userVerse, 30);
+         return userVerse;
+       }
+    }
+}
+
+function getRandomVerse () {
+    var index= Math.floor(Math.random() * (sentences.length));
+    return sentences[index];
 }
   
 function getCookie(cname) {
@@ -71,6 +67,9 @@ function getCookie(cname) {
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
   }
 
+  function deleteCookie(){
+    document.cookie = "userVerse=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+}
   
 var sentences= [
     'Psalms 23:1',
