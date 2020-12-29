@@ -1,3 +1,19 @@
 #main-heading{
     
 }
+
+     
+.container {
+    position: relative;
+    text-align: center;
+    color:black;
+    font-family: calibri,sans-serif;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .top-center {
+    position: absolute;
+    top: 8px;
+    right: 50%;
+  }
