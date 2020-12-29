@@ -6,6 +6,8 @@
     position: relative;
     text-align: center;
     color: black;
+    font-family: calibri,sans-serif;
+    font-weight: bold;
   }
   
   .top-center {
