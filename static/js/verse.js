@@ -26,7 +26,7 @@ function getVerse(){
 var verseDiv = document.getElementById("versediv");
 verseDiv.innerHTML = checkCookieForVerse();
 
-var containerDiv = document.getElementById("containerDiv");
+var containerDiv = document.getElementById("containerdiv");
 containerDiv.style.visibility='visible';
 
 
