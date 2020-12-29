@@ -1,17 +1,3 @@
 #main-heading{
     
 }
-
-.container {
-    position: relative;
-    text-align: center;
-    color:red;
-    font-family: calibri,sans-serif;
-    font-weight: bold;
-  }
-  
-  .top-center {
-    position: absolute;
-    top: 8px;
-    right: 50%;
-  }
