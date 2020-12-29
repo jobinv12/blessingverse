@@ -15,4 +15,4 @@ app.get('/',(req,res)=>{
     res.render('index')
 })
 
-app.listen(PORT, ()=> console.log(`server running on port ${PORT}`))
+app.listen(PORT, ()=> console.log(`Server running on port ${PORT}`))
