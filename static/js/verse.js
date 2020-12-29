@@ -4,15 +4,13 @@
     max-1 (here max = sentence.length) and fits the zero-based numbering
     of the elements in the array
 */
-function getSentence () {
+function checkCookieForVerse () {
     //Check cookie is present
     var userVerse=getCookie("userVerse");
     if (userVerse != "") {
-      alert("your verse is: " + userVerse);
       return userVerse;
     } else {
-       userVerse = getRandomSentence();
-       alert("your random verse is: " + userVerse);
+       userVerse = getRandomVerse();
        if (userVerse != "" && userVerse != null) {
          setCookie("userVerse", userVerse, 30);
          return userVerse;
@@ -20,7 +18,7 @@ function getSentence () {
     }
 }
 
-function getRandomSentence () {
+function getRandomVerse () {
     var index= Math.floor(Math.random() * (sentences.length));
     return sentences[index];
 }
@@ -41,13 +39,9 @@ function getVerse(){
   context.textAlign = "center";
   // put a random line in the middle of the canvas
   // the +10 account for the fonttype's height
-  context.fillText(getSentence(),canvas.width/2, canvas.height/2 + 10);
+  context.fillText(checkCookieForVerse
+(),canvas.width/2, canvas.height/2 + 10);
 }
-
-
-function checkCookie() {
-  }
-
   
 function getCookie(cname) {
     var name = cname + "=";
