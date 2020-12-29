@@ -23,7 +23,11 @@ function getVerse(){
   // the +10 account for the fonttype's height
   context.fillText(checkCookieForVerse(),canvas.width/2, canvas.height/2 + 10);
  */
-document.getElementById("versediv").innerHTML= checkCookieForVerse();
+var verseDiv = document.getElementById("versediv");
+verseDiv.innerHTML = checkCookieForVerse();
+
+var containerDiv = document.getElementById("containerDiv");
+containerDiv.style.visibility='visible';
 }
 
 function checkCookieForVerse () {
