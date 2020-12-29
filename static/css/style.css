@@ -2,3 +2,14 @@
     
 }
 
+.verseContainer {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  
+  .top-center {
+    position: absolute;
+    top: 8px;
+    right: 50%;
+  }
