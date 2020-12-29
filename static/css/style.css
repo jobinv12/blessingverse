@@ -1,15 +1,13 @@
 #main-heading{
     
-}
-
-     
+}     
 .container {
     position: relative;
     text-align: center;
     color:black;
     font-family: calibri,sans-serif;
-    font-weight: bold;
-    font-size: 30 px;
+    font-weight: bolder;
+    font-size: 30px;
     visibility: hidden;
   }
   

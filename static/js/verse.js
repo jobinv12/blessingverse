@@ -28,6 +28,10 @@ verseDiv.innerHTML = checkCookieForVerse();
 
 var containerDiv = document.getElementById("containerDiv");
 containerDiv.style.visibility='visible';
+
+
+var nydiv = document.getElementById("nydiv");
+nydiv.style.visibility='visible';
 }
 
 function checkCookieForVerse () {
