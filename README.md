@@ -8,5 +8,5 @@
 
 1.  nodemon app.js
 
- if not working install nodemon
+ if not working install nodemon using
  npm i -g nodemon
