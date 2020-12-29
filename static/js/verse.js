@@ -6,9 +6,9 @@
 */
 function getVerse(){
   // get the canvas element you want to write to
-  var canvas = document.getElementById("woodcut");
+  var verseDiv = document.getElementById("woodcut");
   // get a handle for the above canvas (here 2d only for simple text)
-  var context = canvas.getContext("2d");
+ /*  var context = canvas.getContext("2d");
   // the canvas is blank the first time only, so erase the content
   // even if it is already blank, checking for it would be more
   // complicated and slower, too
@@ -22,7 +22,8 @@ function getVerse(){
   // put a random line in the middle of the canvas
   // the +10 account for the fonttype's height
   context.fillText(checkCookieForVerse(),canvas.width/2, canvas.height/2 + 10);
-
+ */
+ verseDiv.innerText = checkCookieForVerse();
 }
 
 function checkCookieForVerse () {
