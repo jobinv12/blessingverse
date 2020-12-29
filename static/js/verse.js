@@ -147,7 +147,7 @@ var sentences= [
 'Philippians:4:9',
 'Psalm 23:4',
 'Psalm 37:4',
-'Proverbs :3:5-6',
+'Proverbs 3:5-6',
 'Matthew 6:31-33',
 'Psalm :107:13-16',
 'John:14:13-16',
