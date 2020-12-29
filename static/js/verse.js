@@ -29,9 +29,11 @@ verseDiv.innerHTML = checkCookieForVerse();
 var containerDiv = document.getElementById("containerdiv");
 containerDiv.style.visibility='visible';
 
-
 var nydiv = document.getElementById("nydiv");
 nydiv.style.visibility='visible';
+
+document.getElementById("clickhere").style.visibility='visible';
+
 }
 
 function checkCookieForVerse () {
