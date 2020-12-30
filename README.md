@@ -1,3 +1,3 @@
 ## Preview
 
-www.blessingverse.herokuapp.com
+https://blessingverse.herokuapp.com
