@@ -1,4 +1,5 @@
 node_modules
+._app.js
 ._static
 static/._css
 static/._js
