@@ -86,7 +86,7 @@ function getCookie(cname) {
     document.cookie = "userVerse=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 }
  
-// Blessing Verses compiled by Ancy Jaison
+// 150 Blessing Verses compiled by Ancy Jaison
 var sentences= [
 'Jeremiah 32:27',
 'Psalm 100:5',
@@ -124,6 +124,7 @@ var sentences= [
 'Proverbs 3:5-6',
 'Joshua 1:9',
 'Hebrews 11:6',
+'Hebrews 11:1',
 'Psalm 46:10',
 'Romans 8:31',
 'Job 42:2',
@@ -217,5 +218,25 @@ var sentences= [
 'Isaiah 46: 10',
 'Isaiah 49: 14-15',
 'Isaiah 54: 3-4',
-'Isaiah 54: 17'
+'Isaiah 54: 17',
+'Lamentations 3:22-26',
+'Nahum 2:1',
+'Matthew 19: 27-30',
+'Matthew 21: 22-22',
+'Luke 18:27',
+'Luke 12:7',
+'Romans 2:9-11',
+'1 Corinthians 2:9',
+'2 Corinthians 4:16-18',
+'Ephesians 6: 10-15',
+'Philippians 4:13',
+'Philippians 4:19',
+'Revelation 3:7-8',
+'Revelation 2:10',
+'Revelation 2:17',
+'1 Peter 5:6-7',
+'1 Peter 1:24-25',
+'James 4:7-8',
+'Exodus 23:25',
+'Deuteronomy 30:16'
 ];
