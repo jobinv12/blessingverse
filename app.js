@@ -14,4 +14,8 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/aboutus", (req, res) => {
+  res.render("about");
+});
+
 app.listen(PORT, () => console.log(`Server Running on Port ${PORT}`));
