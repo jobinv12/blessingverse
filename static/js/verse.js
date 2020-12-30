@@ -116,7 +116,7 @@ var sentences= [
 'Ephesians 2:8',
 'Joshua 1:5-9',
 '2 Chronicles 7:14',
-'Isaiah 60:22,62',
+'Isaiah 60:22',
 'Psalm 91:11',
 'Psalm 40:1-3',
 'John 14:27',
