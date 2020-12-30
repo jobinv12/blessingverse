@@ -1,1 +1,16 @@
 node_modules
+._static
+static/._css
+static/._js
+static/._img
+static/img/._newYear.gif
+static/img/._newYear2.gif
+static/img/._vbg0.jpg
+static/img/._vbg1.jpeg
+static/img/._vbg2.jpeg
+static/img/._vbg3.jpeg
+static/img/._vbg4.jpeg
+static/img/._vbg5.jpeg
+static/img/._vbg6.jpeg
+._views
+views/._layouts
