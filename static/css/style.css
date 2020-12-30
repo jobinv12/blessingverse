@@ -1,4 +1,29 @@
-#main-heading{
-    
+body{
+background-color:#33C7FF;
+}
+
+.main-heading {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  color: white;
+}
+.body {
+  background-color: #c5cbe3;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: calibri, sans-serif;
+  font-weight: bolder;
+  font-size: 5vw;
+  visibility: hidden;
+}
+
+.top-center {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 

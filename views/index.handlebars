@@ -1,11 +1,28 @@
-<div class="main-heading text-center">
-    Your manna Bible verse for the New Year 2021
+<div class="main-heading text-center mt-3">
+    My Word of God for the New Year 2021
+</div> <br />
+<div id="clickhere" class="button-click text-center">
+    <button class="btn btn-outline-danger btn-lg btn-block" onclick="getVerse()"> Click Here</button>
 </div>
-<div class="button-click text-center">
-    <button class="btn btn-outline-primary" onclick="scribble()"> Click Here</button>
-</div>
-<div>
-    <canvas id="woodcut" width="1000" height="100%" class="text-center">
+<br>
+{{!-- <div>
+    <canvas id="mycanvas" width="1000" height="100%" class="text-center">
         This text shows up if the canvas element is not supported
     </canvas>
+    style="width:90vw;"
+</div> --}}
+
+<div id="containerdiv" class="container text-center">
+    <img src="static/img/vbg1.jpeg" alt="verseBG" width="100%">
+    <div id="versediv" class="top-center">Test verse Content</div>
+    <hr />
 </div>
+<div id="nydiv" style="text-align: center; visibility:hidden">
+    <img src="static/img/newYear.gif" alt="newYear" width="100%">
+    {{!-- <img src="static/img/newYear2.gif" alt="newYear" style="width:50%;"> --}}
+</div>
+
+{{!-- <div id="del" class="button-click text-center" style="visibility:hidden">
+    <button class="btn btn-outline-primary" onclick="deleteCookie()"> </button>
+    Delete my cookie to Get a new verse (Testing only)
+</div> --}}
