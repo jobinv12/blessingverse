@@ -4,7 +4,7 @@
   font-size: 50px;
 }
 body {
-  background-color: #33c7ff;
+  background-color: #82deff;
 }
 .container {
   position: relative;
@@ -25,7 +25,7 @@ body {
 
 .footer{
   text-align: center;
-  background-color:cornflowerblue;
+  background-color:#00b6f8bd;
   color: white;
   font-weight: bold;
   padding: 10px;
