@@ -32,8 +32,10 @@ containerDiv.style.visibility='visible';
 var nydiv = document.getElementById("nydiv");
 nydiv.style.visibility='visible';
 
+document.getElementById('clickhere').style.display = 'none'
 document.getElementById("clickhere").remove;
 document.getElementById("del").style.visibility='visible';
+
 
 }
 

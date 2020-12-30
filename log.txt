@@ -7,3 +7,4 @@
     3. change image width to 100%
     4. changed button color and size
     5. commemted remove cookies button
+    6. Button hidden after displaying the verse
