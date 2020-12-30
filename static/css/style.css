@@ -18,14 +18,14 @@ body {
 
 .top-center {
   position: absolute;
-  top: 30%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .footer{
   text-align: center;
-  background-color:#00b6f8bd;
+  background-color:#00b6f856;
   color: white;
   font-weight: bold;
   padding: 10px;
