@@ -143,7 +143,7 @@ var sentences = [
   'Philippians:4:9',
   'Psalm 23:4',
   'Psalm 37:4',
-  'Proverbs 3:5-6',
+  'Proverbs 3:26',
   'Matthew 6:31-33',
   'Psalm 107:13-16',
   'John 14:13-16',
@@ -230,5 +230,9 @@ var sentences = [
   '1 Peter 1:24-25',
   'James 4:7-8',
   'Exodus 23:25',
-  'Deuteronomy 30:16'
+  'Deuteronomy 30:16',
+  'Psalm 23:6',
+  'Zephaniah 3:20',
+  'Zephaniah 3:17',
+  'Psalm 31:4'
 ];
