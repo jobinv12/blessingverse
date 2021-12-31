@@ -134,7 +134,7 @@ var sentences = [
   'James 1:2-3',
   'Exodus:14:14',
   'Romans 8:28',
-  'Isaiah :43:2',
+  'Isaiah 43:2',
   'Isaiah 54:10',
   'James 4:7',
   '2 Chronicles 7:14',
