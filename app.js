@@ -11,7 +11,8 @@ app.set("view engine", "handlebars");
 app.use("/static", express.static(path.resolve(__dirname, "static")));
 
 app.get("/", (req, res) => {
-  res.render("index");
+  const currentYear = new Date().getFullYear();
+  res.render("index", (currentYear = currentYear));
 });
 
 app.get("/aboutus", (req, res) => {
