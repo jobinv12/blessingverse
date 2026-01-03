@@ -12,7 +12,7 @@ app.use("/static", express.static(path.resolve(__dirname, "static")));
 
 app.get("/", (req, res) => {
   const currentYear = new Date().getFullYear();
-  res.render("index", (currentYear = currentYear));
+  res.render("index", { currentYear });
 });
 
 app.get("/aboutus", (req, res) => {
